@@ -1,0 +1,43 @@
+button, .answerBox {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	background-color: #ffb6c1;
+	font-weight: bold;
+	color: #f94862;
+}
+
+#calculator {
+	border: thin solid #ffb6c1;
+	width: 276px;
+	padding: 0 25px;
+	margin: 25px auto;
+}
+
+.answerBox {
+	width: 276px;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+.mathButton {
+	border: thin solid #ffb6c1;
+	width: 50px;
+	margin: 1px;
+	margin-top: 4px;
+}
+
+.mathButton:hover, .mathButton:active {
+	cursor: pointer;
+}
+
+.mathButton:hover {
+	background-color: #fbe2e6;
+	border: thin solid #f94862;
+}
+
+.mathButton:active {
+	background-color: #ffffff;
+	border: thin solid #ffffff;
+	color: #f94862;
+	margin-top: 2px;
+}
